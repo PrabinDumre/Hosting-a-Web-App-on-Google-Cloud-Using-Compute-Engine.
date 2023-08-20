@@ -192,6 +192,8 @@ gcloud compute instances set-machine-type frontend \
   --zone=$ZONE \
   --machine-type e2-small
 
+  Command 6
+
 gcloud compute instance-templates create fancy-fe-neww \
     --region=$REGION \
     --source-instance=frontend \
